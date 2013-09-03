@@ -3,3 +3,13 @@
 get '/' do
     erb :index
 end
+
+
+
+
+
+####POST 
+
+post '/game' do
+	erb :game
+end
