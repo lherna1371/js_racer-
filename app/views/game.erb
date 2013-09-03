@@ -7,46 +7,10 @@
  
  
  
-<h1> BIG TIME RACE! </h5>
+<h1 class="title_big"> BIG TIME RACE! </h1>
 <table class="racer_table">
-  <tr id="player1_strip">
-    <td class="active"></td>
-    <td></td>
-    <td ></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+  <tr id="player1_strip" data-player-id-one="<% @player_one.id %>">
+    <td class="active"><%=@player_one.name %>: </td>
     <td></td>
     <td></td>
     <td></td>
@@ -80,44 +44,8 @@
     <td></td>
     <td></td>
   </tr>
-  <tr id="player2_strip">
-    <td class="active"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+  <tr id="player2_strip" data-player-id-two="<% @player_two.id %>">
+    <td class="active"><%=@player_two.name %>:</td>
     <td></td>
     <td></td>
     <td></td>
@@ -152,10 +80,12 @@
     <td></td>
   </tr>
 </table>
- 
-<h1 class="winone"> PLAYER ONE WINS... BITCH! </h5>
-<h1 class="wintwo"> PLAYER TWO WINS... BITCH! </h5>
- 
-<h1><a class="clickme" href ="file://localhost/Users/apprentice/Desktop/untitled%20folder/index.html">DO IT AGAIN!!!</a></h1>
 
+<!--  
+
+<h1 class="winone"> <%=@player_one.name.upcase%> WINS... <%=@player_two.name.upcase%>... BITCH! </h5>
+<h1 class="wintwo"> <%=@player_two.name.upcase%> WINS... <%=@player_one.name.upcase%>... BITCH! </h5>
+ 
+<h1><a class="clickme" href ="http://localhost:9393/">DO IT AGAIN!!!</a></h1>
+ -->
 </div>

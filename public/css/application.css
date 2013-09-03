@@ -9,10 +9,15 @@ th {
   text-align: left;
 }
 
+.racer_table {
+  position: fixed;
+  top: 150px;
+}
+
 .racer_table td {
   background-color: white;
   height: 100px;
-  width: 30px;
+  width: 50px;
   border: 1px solid black;
 }
  
@@ -38,4 +43,25 @@ th {
   text-decoration: none;
   color: pink;
  
+}
+
+.title_big {
+  font-weight: bold;
+  position: fixed;
+  right: 50%;
+}
+
+/*INDEX CSS*/
+
+.player_box {
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.enter_button {
+  width: 400px;
+}
+
+.input {
+  
 }
